@@ -1,0 +1,34 @@
+{
+    "name": "remotelyliving/async-php-lighting-talk",
+    "description": "Lighting talk for Adobe on async php with amp",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "remotelyliving",
+            "email": "christian.h.thomas@me.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2",
+        "amphp/amp": "^2.0",
+        "amphp/socket": "^0.10.9",
+        "amphp/parallel": "^0.2.5",
+        "remotelyliving/cachemoney": "^1.0",
+        "amphp/artax": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RemotelyLiving\\AsyncPhp\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RemotelyLiving\\AsyncPhp\\Test\\": "tests"
+        }
+    }
+}
